@@ -12,7 +12,7 @@
 # ### STEP 1a - Install Required Libraries
 # 
 # 
-#     Python librarries needed are (1) pyodbc library is used to connect to other databases and (2) pandas 
+#     Python libraries needed are (1) pyodbc library is used to connect to other databases and (2) pandas 
 #     
 # 
 # 
@@ -62,7 +62,7 @@ connection = connect_to_database(database_path)
 # ### STEP 2 - Retrieving Table Names Function:
 # 
 # 
-# This function, get_table_names, takes a single argument connection, which is a valid database connection object. The function retrieves the names of tables from the database using a list comprehension and the tables() method of the cursor. It filters for tables by specifying tableType="TABLE"
+# This function, get_table_names, takes a single argument connection, which is a valid database connection object. The function retrieves the names of tables from the database using a list comprehension and the tables() method of the cursor. It filters the tables by specifying tableType="TABLE"
 # 
 
 # In[5]:
